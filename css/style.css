@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+    border: 2px solid black;
+}
+
+main{
+    width: 100%;
+    min-height: 1200px;
+    background-color: bisque;
+    border: 2px dashed green ;
+    clear: both;
+}
+
+
+aside.left-aside{
+    width: 25%;
+    background-color: pink;
+    min-height: 1200px;
+    float: left;
+
+}
+
+section{
+    width: 50%;
+    background-color: yellow;
+    min-height: 1200px;
+    float: left;
+}
+
+aside.right-aside{
+    width: 25%;
+    background-color: orange;
+    min-height: 1200px;
+    float: left;
+}
